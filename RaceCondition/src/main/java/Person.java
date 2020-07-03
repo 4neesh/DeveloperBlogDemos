@@ -8,14 +8,14 @@ public class Person implements Runnable{
 
     }
 
-    public int spend(int amount) throws InterruptedException {
+    public synchronized int spend(int amount) throws InterruptedException {
 
         if(account.getBalance() >= amount) {
 
             System.out.println(Thread.currentThread().getName() + " is going to withdraw " + amount + " from the account with balance of " + this.account.getBalance() + ".");
 
                 System.out.println("waiting");
-                Thread.currentThread().sleep(100);
+                wait(100);
                 System.out.println("done");
 
 
@@ -33,7 +33,9 @@ public class Person implements Runnable{
      public void run() {
 
          try {
+
              this.spend(10);
+
          } catch (InterruptedException e) {
              e.printStackTrace();
          }

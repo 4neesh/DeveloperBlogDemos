@@ -13,15 +13,15 @@ public class MainTest {
     @Test
     public void accountIsNotOverdrawn() throws InterruptedException{
 
-        int numberOfHolders = 9;
+        int numberOfHolders = 2;
         bankAccount = new Account(50);
         Person person = new Person(bankAccount);
         CountDownLatch latch = new CountDownLatch(numberOfHolders);
 
-        ExecutorService es = Executors.newFixedThreadPool(numberOfHolders);
+        ExecutorService es = Executors.newFixedThreadPool(10);
 
         for(int i = 0; i<numberOfHolders; i++){
-            es.submit(person);
+            es.execute(person);
             latch.countDown();
         }
 
