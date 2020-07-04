@@ -1,18 +1,21 @@
+import java.math.BigInteger;
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Counter {
 
-    private int count;
+    private volatile AtomicInteger count = new AtomicInteger(0);
 
     public synchronized void increment() throws InterruptedException{
-        int temp = count;
         System.out.println(Thread.currentThread().getName() + " wait");
         wait(100);
         System.out.println(Thread.currentThread().getName() + " done");
 
-        count = temp + 1;
+        count.getAndIncrement();
+        System.out.println("Count: " + count);
     }
 
     public int getCount(){
-        return this.count;
+        return this.count.get();
     }
 
 }
