@@ -35,6 +35,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.googlecode.thread-weaver/threadweaver -->
+        <dependency>
+            <groupId>com.googlecode.thread-weaver</groupId>
+            <artifactId>threadweaver</artifactId>
+            <version>0.1</version>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/com.google.code.tempus-fugit/tempus-fugit -->
         <dependency>
