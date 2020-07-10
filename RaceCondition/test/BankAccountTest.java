@@ -27,17 +27,17 @@ public class BankAccountTest {
     }
 
     @Test
-    public void counterWithConcurrency() throws InterruptedException{
+    public void multipleThreadWithdrawsFromBankAccount() throws InterruptedException{
 
-        int numberOfThreads = 10;
-        ExecutorService es = Executors.newFixedThreadPool(100);
+        int numberOfThreads = 6;
+        ExecutorService es = Executors.newFixedThreadPool(10);
         CountDownLatch latch = new CountDownLatch(numberOfThreads);
 
         for(int i = 0; i<numberOfThreads; i++){
            es.execute(() -> {
 
                try {
-                   bankAccount.withdraw(51);
+                   bankAccount.withdraw(10);
                } catch (InterruptedException e) {
                    e.printStackTrace();
                }
@@ -47,7 +47,7 @@ public class BankAccountTest {
         }
         es.shutdown();
         latch.await();
-        assertEquals(41, bankAccount.getBalance().get());
+        assertEquals(0, bankAccount.getBalance().get());
     }
 
 }

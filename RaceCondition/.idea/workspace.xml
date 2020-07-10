@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a09eb8-4fc7-411e-862c-7c6b369061c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_thread_weaver_threadweaver_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_10_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymockclassextension_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RaceCondition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RaceCondition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CounterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CounterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BankAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BankAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankAccountTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,21 +22,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="20" />
               <folding>
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/BankAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="474">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SafeCounter.java" />
         <option value="$PROJECT_DIR$/test/MainTest.java" />
         <option value="$PROJECT_DIR$/test/CounterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BankAccount.java" />
         <option value="$PROJECT_DIR$/test/BankAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BankAccount.java" />
       </list>
     </option>
   </component>
@@ -102,7 +96,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="979" />
@@ -154,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594109428514" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594386530919" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -172,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BankAccountTest.multipleThreadWithdrawsFromBankAccount">
     <configuration name="BankAccountTest.bankAccountWithdraws" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaceCondition" />
       <option name="PACKAGE_NAME" value="" />
@@ -193,21 +187,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.fivePeopleWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaceCondition" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="fivePeopleWithdraw" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountTest" />
+      <option name="METHOD_NAME" value="multipleThreadWithdrawsFromBankAccount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.sixPeopleWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.fivePeopleWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaceCondition" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="sixPeopleWithdraw" />
+      <option name="METHOD_NAME" value="fivePeopleWithdraw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountTest.counterWithConcurrency" />
+        <item itemvalue="JUnit.BankAccountTest.multipleThreadWithdrawsFromBankAccount" />
         <item itemvalue="JUnit.BankAccountTest.bankAccountWithdraws" />
+        <item itemvalue="JUnit.BankAccountTest.counterWithConcurrency" />
         <item itemvalue="JUnit.MainTest.twoPeopleWithdraw" />
         <item itemvalue="JUnit.MainTest.fivePeopleWithdraw" />
-        <item itemvalue="JUnit.MainTest.sixPeopleWithdraw" />
       </list>
     </recent_temporary>
   </component>
@@ -247,39 +241,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CounterTest_counterWithConcurrency - 2020.07.07 at 06h 57m 24s.xml">
-      <configuration name="CounterTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_bankAccountWithdraws - 2020.07.10 at 09h 39m 02s.xml">
+      <configuration name="BankAccountTest.bankAccountWithdraws" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 07h 16m 44s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 11h 32m 41s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 07h 17m 10s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 12h 15m 23s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 07h 22m 27s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 12h 15m 54s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 07h 35m 13s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 12h 16m 08s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 07h 36m 09s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 12h 17m 08s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 08h 04m 30s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 12h 17m 28s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 08h 05m 53s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 12h 27m 34s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 08h 06m 47s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 14h 07m 23s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest_counterWithConcurrency - 2020.07.07 at 08h 07m 29s.xml">
-      <configuration name="BankAccountTest.counterWithConcurrency" configurationId="JUnit" />
+    <history-entry file="BankAccountTest_multipleThreadWithdrawsFromBankAccount - 2020.07.10 at 14h 08m 32s.xml">
+      <configuration name="BankAccountTest.multipleThreadWithdrawsFromBankAccount" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="979" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="699" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -287,7 +281,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16453674" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Log Analyzer" order="1" />
@@ -297,7 +291,7 @@
       <window_info anchor="bottom" id="Anonymous Apex" order="5" weight="0.3294893" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.2897407" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.42339373" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39868203" />
       <window_info anchor="bottom" id="SOQL Query" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -341,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ThreadWeaverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -387,17 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -412,8 +388,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BankAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="474">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="20" />
+          <folding>
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
