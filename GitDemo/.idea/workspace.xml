@@ -18,7 +18,9 @@
         <entry file="file://$PROJECT_DIR$/src/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
+
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+
             </state>
           </provider>
         </entry>
@@ -36,7 +38,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
+
         <entry key="$PROJECT_DIR$/.." value="master" />
+
       </map>
     </option>
   </component>
@@ -81,7 +86,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594709824192" />
+
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,7 +153,9 @@
     <entry file="file://$PROJECT_DIR$/src/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
+
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+
         </state>
       </provider>
     </entry>
