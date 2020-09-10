@@ -36,6 +36,7 @@ public class TableBuilder {
         String[] columns = {"Pos", "Team", "Won", "Drawn", "Lost", "Points"};
 
         DefaultTableModel model = new DefaultTableModel(data, columns);
+
         table = new JTable(model);
 
         return table;

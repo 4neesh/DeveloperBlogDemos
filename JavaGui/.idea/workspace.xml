@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71755f51-7a3e-40ab-a5b6-2a7230f4a8b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiFrame/GuiFrame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiFrame/src/CustomRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiFrame/src/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiFrame/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiFrame/src/TableBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GitDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GitDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuiFrame/src/CustomRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GuiFrame/src/TableCellRendererImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuiFrame/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GuiFrame/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuiFrame/src/TableBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GuiFrame/src/TableBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/GuiFrame/CustomRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/GuiFrame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/GuiFrame/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/GuiFrame/TableBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/GuiFrame/TableBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,26 +72,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="2" key="GridCell.Tab.0.bottom" timestamp="1599717858182">
-      <screen x="0" y="23" width="1280" height="699" />
+    <state x="773" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1599757512157">
+      <screen x="0" y="23" width="1920" height="979" />
+    </state>
+    <state x="773" y="226" key="#com.intellij.ide.util.MemberChooser/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599757512157" />
+    <state width="1358" height="179" key="GridCell.Tab.0.bottom" timestamp="1599760808220">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.bottom/0.23.1280.699@0.23.1280.699" timestamp="1599717858182" />
-    <state width="1358" height="333" key="GridCell.Tab.0.bottom/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599638071405" />
-    <state width="1238" height="2" key="GridCell.Tab.0.center" timestamp="1599717858180">
-      <screen x="0" y="23" width="1280" height="699" />
+    <state width="1358" height="179" key="GridCell.Tab.0.bottom/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599760808220" />
+    <state width="1358" height="179" key="GridCell.Tab.0.center" timestamp="1599760808218">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.center/0.23.1280.699@0.23.1280.699" timestamp="1599717858180" />
-    <state width="1358" height="333" key="GridCell.Tab.0.center/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599638071404" />
-    <state width="1238" height="2" key="GridCell.Tab.0.left" timestamp="1599717858179">
-      <screen x="0" y="23" width="1280" height="699" />
+    <state width="1358" height="179" key="GridCell.Tab.0.center/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599760808218" />
+    <state width="1358" height="179" key="GridCell.Tab.0.left" timestamp="1599760808216">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.left/0.23.1280.699@0.23.1280.699" timestamp="1599717858179" />
-    <state width="1358" height="333" key="GridCell.Tab.0.left/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599638071403" />
-    <state width="1238" height="2" key="GridCell.Tab.0.right" timestamp="1599717858181">
-      <screen x="0" y="23" width="1280" height="699" />
+    <state width="1358" height="179" key="GridCell.Tab.0.left/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599760808216" />
+    <state width="1358" height="179" key="GridCell.Tab.0.right" timestamp="1599760808219">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1238" height="2" key="GridCell.Tab.0.right/0.23.1280.699@0.23.1280.699" timestamp="1599717858181" />
-    <state width="1358" height="333" key="GridCell.Tab.0.right/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599638071405" />
+    <state width="1358" height="179" key="GridCell.Tab.0.right/0.23.1920.979/-1280.194.1280.777@0.23.1920.979" timestamp="1599760808219" />
   </component>
   <component name="masterDetails">
     <states>

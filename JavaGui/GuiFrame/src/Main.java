@@ -12,8 +12,9 @@ public class Main {
         frame.setResizable(true);
 
         JTable table = new TableBuilder().buildTable();
-//        table.setDefaultRenderer(Object.class, new CustomRenderer());
         frame.getContentPane().add(new JScrollPane(new TableBuilder().getTable()), BorderLayout.CENTER);
+        table.setDefaultRenderer(Object.class, new TableCellRendererImpl());
+
         frame.pack();
     }
 }
