@@ -1,4 +1,6 @@
 import javax.swing.*;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
 import java.awt.*;
 
 public class Main {
@@ -12,9 +14,35 @@ public class Main {
         frame.setResizable(true);
 
         JTable table = new TableBuilder().buildTable();
-        frame.getContentPane().add(new JScrollPane(new TableBuilder().getTable()), BorderLayout.CENTER);
+        JScrollPane viewComponent = new JScrollPane(table);
+        frame.add(viewComponent);
         table.setDefaultRenderer(Object.class, new TableCellRendererImpl());
-
+        setColumnWidths(table);
         frame.pack();
+    }
+
+    private static void setColumnWidths(JTable table) {
+        for (int column = 0; column < table.getColumnCount(); column++)
+        {
+            TableColumn tableColumn = table.getColumnModel().getColumn(column);
+            int preferredWidth = tableColumn.getMinWidth();
+            int maxWidth = tableColumn.getMaxWidth();
+
+            for (int row = 0; row < table.getRowCount(); row++)
+            {
+                TableCellRenderer cellRenderer = table.getCellRenderer(row, column);
+                Component c = table.prepareRenderer(cellRenderer, row, column);
+                int width = c.getPreferredSize().width + table.getIntercellSpacing().width;
+                preferredWidth = Math.max(preferredWidth, width);
+
+                if (preferredWidth >= maxWidth)
+                {
+                    preferredWidth = maxWidth;
+                    break;
+                }
+            }
+
+            tableColumn.setPreferredWidth( preferredWidth );
+        }
     }
 }

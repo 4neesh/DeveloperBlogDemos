@@ -38,12 +38,8 @@ public class TableBuilder {
         DefaultTableModel model = new DefaultTableModel(data, columns);
 
         table = new JTable(model);
-
         return table;
     }
 
-    public JTable getTable(){
-        return table;
-    }
 
 }

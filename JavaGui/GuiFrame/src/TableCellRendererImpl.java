@@ -22,7 +22,7 @@ public class TableCellRendererImpl implements TableCellRenderer {
         String relegationZone = (String)table.getModel().getValueAt(row, 0);
         boolean relegated = Integer.parseInt(relegationZone) > 21 ? true : false;
         if(topOfLeague){
-            editor.setForeground(Color.getHSBColor(17, 86, 146));
+            editor.setForeground(Color.green.darker());
         }
         if(relegated){
             editor.setForeground(Color.red);
