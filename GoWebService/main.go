@@ -12,19 +12,6 @@ import (
 
 func main() {
 
-	person := Person{
-		Id:   1,
-		Name: "Alice",
-		Age:  25,
-	}
-
-	personJson, err := json.Marshal(person)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(string(personJson))
-	http.Handle("/foo", &Person{Name: "foo called"})
-	http.HandleFunc("/bar", barHandler)
 	http.HandleFunc("/people", personHandler)
 	http.HandleFunc("/people/", singlePersonHandler)
 	http.ListenAndServe(":5000", nil)
