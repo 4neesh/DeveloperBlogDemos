@@ -15,9 +15,13 @@ public class ClientController {
 	@Value("${Environment}")
 	private String environment;
 	
+	@Value("${Database}")
+	private String db;
+	
+	
 	@GetMapping("/username")
 	public String getUsername() {
-		return "Username: " + username + "\nEnvironment: " + environment;
+		return "Username: " + username + "\nEnvironment: " + environment + "\nDatabase: " + db;
 	}
 	
 }
