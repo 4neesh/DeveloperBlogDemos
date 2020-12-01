@@ -1,3 +1,7 @@
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
 
     public void getProperties(){
@@ -43,4 +47,26 @@ public class Car {
         a.getACoffee();
     }
 
+}
+
+ interface  s {
+    File openas();
+        }
+class Test extends File implements s {
+
+    public Test(String pathname) {
+        super(pathname);
+    }
+
+    public static void main(String[] args) {
+
+        List<Object> a = new ArrayList<>();
+
+    }
+
+    @Override
+    public File openas() {
+        Test a = new Test("L");
+        return a;
+    }
 }

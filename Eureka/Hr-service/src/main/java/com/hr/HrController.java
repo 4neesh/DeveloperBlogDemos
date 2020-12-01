@@ -13,7 +13,6 @@ public class HrController {
 	RestTemplate restTemplate;
 	
 	@GetMapping("/request-contacts")
-	@ResponseBody
 	public Contact[] contacts() {
 	        Contact[] result = restTemplate.getForObject("http://phone-book/contacts", Contact[].class);
 	        return result;
